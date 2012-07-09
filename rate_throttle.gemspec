@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/rate_throttle.rb",
+    "rate_throttle.gemspec",
     "spec/rate_throttle_spec.rb",
     "spec/spec_helper.rb"
   ]
