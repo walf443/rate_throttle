@@ -1,6 +1,17 @@
 = rate_throttle
 
-Description goes here.
+Throttle the load.
+
+== Example
+
+    require 'rate_throttle'
+
+    1000.times do
+        # limit block to 10% workload.
+        RateThrottle.throttle(0.1) do
+            # do something.
+        end
+    end
 
 == Contributing to rate_throttle
  
@@ -11,6 +22,9 @@ Description goes here.
 * Commit and push until you are happy with your contribution.
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Thanks
+Kazuho Oku: This library is based from Sub::Throttle http://search.cpan.org/~kazuho/Sub-Throttle-0.02/lib/Sub/Throttle.pm
 
 == Copyright
 
