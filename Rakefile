@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "rate_throttle"
   gem.homepage = "http://github.com/walf443/rate_throttle"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{throttle load of block by calling sleep}
+  gem.description = %Q{ throttle load of block by calling sleep }
   gem.email = "walf443@gmail.com"
   gem.authors = ["Keiji, Yoshimi"]
   # dependencies defined in Gemfile
