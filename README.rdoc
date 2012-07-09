@@ -1,6 +1,6 @@
 = rate_throttle
 
-Throttle the load.
+Throttle load of block by calling sleep.
 
 == Example
 
